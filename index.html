@@ -1,2199 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Srushti Ghatge | Portfolio</title>
-
-    <meta name="description" content="Portfolio of Srushti Ghatge - AI & Machine Learning Engineer">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-
-    <!-- AOS Animation -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-
-    <!-- CSS -->
+    <meta name="theme-color" content="#f8f6f2">
+    <title>Srushti Ghatge — Software Developer & AI/ML Student</title>
+    <meta name="description" content="Srushti Ghatge's portfolio: thoughtful software, explainable AI, and machine learning projects. B.Tech CSE (AI & ML), Kolhapur, India.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-    <!-- ================= NAVBAR ================= -->
-
-    <header>
-
-        <nav class="navbar">
-
-            <div class="logo">
-                Srushti <span>Ghatge</span>
-            </div>
-
-            <!-- Navigation Links -->
-
-            <ul class="nav-links">
-
-                <li><a href="#home">Home</a></li>
-
-                <li><a href="#about">About</a></li>
-
-                <li><a href="#skills">Skills</a></li>
-
-                <li><a href="#projects">Projects</a></li>
-
-                <li><a href="#journey">Journey</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-
-            <a href="assets/resume/Resume.pdf" class="resume-btn" download>
-
-                Resume
-
-            </a>
-
-            <!-- Hamburger -->
-
-            <div class="menu-btn">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </div>
-
-        </nav>
-
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></symbol>
+    <symbol id="code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></symbol>
+    <symbol id="spark" viewBox="0 0 24 24"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7Z"/></symbol>
+    <symbol id="layers" viewBox="0 0 24 24"><path d="m12 3 10 5-10 5L2 8Zm-10 9 10 5 10-5M2 17l10 5 10-5"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+    </svg>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Srushti Ghatge, home">sg<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+        <div class="nav-links" id="nav-links"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+        </div>
+        <a class="nav-resume" href="assets/resume/Resume.pdf" download>Résumé <svg class="icon" aria-hidden="true"><use href="#download"/></svg></a>
+      </nav>
     </header>
-
-    <!-- HOME -->
-    <section id="home" class="hero">
-
-        <div class="hero-container">
-
-            <!-- Left Side -->
-
-            <div class="hero-content" data-aos="fade-right">
-
-                <p class="hero-intro">
-                    Hello, I'm
-                </p>
-
-                <h1>
-                    Srushti <span>Ghatge</span>
-                </h1>
-                <h2 class="hero-role">
-
-                    <span class="typing"></span>
-
-                    <span class="cursor">|</span>
-
-                </h2>
-
-                <p class="hero-description">
-
-                    Passionate about building intelligent software and solving
-                    real-world problems through technology. I am a final-year
-                    B.Tech student specializing in Computer Science &
-                    Engineering (Artificial Intelligence & Machine Learning),
-                    with interests in software development, machine learning,
-                    and modern web technologies.
-
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="assets/resume/Resume.pdf" class="primary-btn" download>
-
-                        <i class="fa-solid fa-download"></i>
-
-                        Download Resume
-
-                    </a>
-
-                    <a href="#contact" class="secondary-btn">
-
-                        Contact Me
-
-                    </a>
-
-                </div>
-
-                <div class="social-icons">
-
-                    <a href="https://github.com/srushtighatge25-commits" target="_blank">
-
-                        <i class="fa-brands fa-github"></i>
-
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/srushti-ghatge-50325b334/" target="_blank">
-
-                        <i class="fa-brands fa-linkedin"></i>
-
-                    </a>
-
-                    <a href="mailto:srushtighatge25@gmail.com">
-
-                        <i class="fa-solid fa-envelope"></i>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Right Side -->
-
-            <div class="hero-image" data-aos="fade-left">
-
-                <img src="assets/images/Portfolio pic.png" alt="Srushti Ghatge">
-
-            </div>
-
+    <main id="main">
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER · AI & ML STUDENT</p>
+          <h1 id="hero-title">A curious mind.<br>A builder <em>at heart.</em>
+          </h1>
+          <p class="hero-intro">Hi, I’m <strong>Srushti Ghatge.</strong>
+          </p>
+          <p class="hero-description">I turn complex problems into thoughtful software. Exploring the space where artificial intelligence meets everyday life, one project at a time.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a><a class="text-link" href="#contact">Let’s connect <svg class="icon" aria-hidden="true"><use href="#diagonal"/></svg></a>
+          </div>
+          <div class="hero-socials"><a href="https://github.com/srushtighatge25-commits" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/srushti-ghatge-50325b334/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><span class="social-divider"></span><span>Based in Kolhapur, India</span>
+          </div>
         </div>
-
-    </section>
-
-    <!-- ================= ABOUT ================= -->
-
-    <section id="about">
-
-        <!-- Section Heading -->
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>About Me</h2>
-            <p>Who I Am</p>
+        <div class="hero-portrait">
+          <div class="portrait-frame"><img src="assets/images/About%20photo.jpeg" alt="Srushti Ghatge wearing a black blazer" width="1052" height="1494" fetchpriority="high"><span class="portrait-corner" aria-hidden="true">✳</span>
+          </div>
+          <div class="portrait-note"><span class="note-icon"><svg class="icon" aria-hidden="true"><use href="#code"/></svg></span>
+            <div>Built with curiosity.<small>Always learning. Always creating.</small>
+            </div>
+          </div>
+          <span class="portrait-caption">A LITTLE LOGIC. A LOT OF POSSIBILITY.</span>
         </div>
-
-        <!-- ================= TOP ROW ================= -->
-
-        <div class="about-top">
-
-            <!-- Left : About Image -->
-
-            <div class="about-image" data-aos="fade-right">
-
-                <img src="assets/images/About photo.jpeg" alt="Srushti Ghatge">
-
-            </div>
-
-            <!-- Right : Introduction -->
-
-            <div class="about-intro" data-aos="fade-left">
-
-                <h3>Hello! I'm Srushti Ghatge</h3>
-
-                <h4>Final Year B.Tech Student</h4>
-
-                <p>
-
-                    I am currently pursuing my B.Tech in Computer Science &
-                    Engineering (Artificial Intelligence & Machine Learning)
-                    at D. Y. Patil College of Engineering &
-                    Technology, Kolhapur.
-
-                    Passionate about software development and Artificial
-                    Intelligence, I enjoy creating practical software
-                    solutions that solve real-world problems.
-
-                    I continuously improve my programming skills, explore
-                    emerging technologies, and build projects that
-                    strengthen both my technical expertise and
-                    problem-solving abilities.
-
-                </p>
-
-                <!-- Academic Card -->
-
-                <div class="academic-card">
-
-                    <i class="fa-solid fa-graduation-cap"></i>
-
-                    <h5>Academic Performance</h5>
-
-                    <div class="percentage">
-
-                        80.16%
-
-                    </div>
-
-                    <p>Aggregate till Semester VI</p>
-
-                </div>
-
-            </div>
-
+        <div class="hero-bottom"><span>B.TECH CSE · AI & MACHINE LEARNING</span><a href="#about">Get to know me <span aria-hidden="true">↓</span></a><span>CLASS OF 2027</span>
         </div>
-
-        <!-- ================= BOTTOM ROW ================= -->
-
-        <div class="about-bottom">
-
-            <!-- Left Column -->
-
-            <div class="feature-section">
-
-                <div class="about-card" data-aos="zoom-in">
-
-                    <i class="fa-solid fa-code"></i>
-
-                    <h4>Software Development</h4>
-
-                    <p>
-
-                        Building responsive web applications,
-                        scalable software solutions,
-                        and modern user experiences.
-
-                    </p>
-
-                </div>
-
-                <div class="about-card" data-aos="zoom-in" data-aos-delay="100">
-
-                    <i class="fa-solid fa-brain"></i>
-
-                    <h4>Artificial Intelligence</h4>
-
-                    <p>
-
-                        Exploring Machine Learning,
-                        Deep Learning and intelligent
-                        software solutions.
-
-                    </p>
-
-                </div>
-
-                <div class="about-card" data-aos="zoom-in" data-aos-delay="200">
-
-                    <i class="fa-solid fa-lightbulb"></i>
-
-                    <h4>Problem Solving</h4>
-
-                    <p>
-
-                        Solving programming challenges
-                        using logical thinking and
-                        efficient algorithms.
-
-                    </p>
-
-                </div>
-
-                <div class="about-card" data-aos="zoom-in" data-aos-delay="300">
-
-                    <i class="fa-solid fa-book-open"></i>
-
-                    <h4>Continuous Learning</h4>
-
-                    <p>
-
-                        Constantly learning modern
-                        technologies to become
-                        a better engineer.
-
-                    </p>
-
-                </div>
-
+      </section>
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="container about-layout">
+          <div>
+            <p class="eyebrow section-label">01 / A LITTLE ABOUT ME</p>
+            <h2 id="about-title">Technology with<br>a <em>human purpose.</em>
+            </h2>
+          </div>
+          <div class="about-copy">
+            <p class="lead">I’m a final-year engineering student who enjoys asking “what if?” — and then building the answer.</p>
+            <p>Currently pursuing Computer Science & Engineering with a specialization in Artificial Intelligence & Machine Learning at D. Y. Patil College of Engineering & Technology, Kolhapur.</p>
+            <p>From digital biomarkers to intelligent floor plans, I’m drawn to practical problems. I bring together software development, machine learning, and a willingness to keep learning to turn ideas into useful experiences.</p>
+            <div class="about-facts">
+              <div><strong>80.16<span>%</span></strong><span>Aggregate through Semester VI</span>
+              </div>
+              <div><strong>2027</strong><span>Expected graduation</span>
+              </div>
+              <a class="text-link" href="assets/resume/Resume.pdf" download>My résumé <svg class="icon" aria-hidden="true"><use href="#download"/></svg></a>
             </div>
-
-            <!-- Right Column -->
-
-            <div class="facts-section">
-
-                <div class="fact-card" data-aos="zoom-in">
-
-                    <i class="fa-solid fa-location-dot"></i>
-
-                    <h4>Location</h4>
-
-                    <p>
-
-                        Kolhapur,
-                        Maharashtra
-
-                    </p>
-
-                </div>
-
-                <div class="fact-card" data-aos="zoom-in" data-aos-delay="100">
-
-                    <i class="fa-solid fa-building-columns"></i>
-
-                    <h4>College</h4>
-
-                    <p>
-
-                        D. Y. Patil College
-                        of Engineering &
-                        Technology
-
-                    </p>
-
-                </div>
-
-                <div class="fact-card" data-aos="zoom-in" data-aos-delay="200">
-
-                    <i class="fa-solid fa-calendar-days"></i>
-
-                    <h4>Graduation</h4>
-
-                    <p>
-
-                        2027
-
-                    </p>
-
-                </div>
-
-                <div class="fact-card" data-aos="zoom-in" data-aos-delay="300">
-
-                    <i class="fa-solid fa-laptop-code"></i>
-
-                    <h4>Focus Areas</h4>
-
-                    <p>
-
-                        Software Development
-
-                        <br>
-
-                        AI & Machine Learning
-
-                    </p>
-
-                </div>
-
-            </div>
-
+          </div>
         </div>
-
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education"></section>
-
-    <!-- SKILLS -->
-
-    <section id="skills">
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>Technical Skills</h2>
-            <p>Technologies & Tools I Work With</p>
+      </section>
+      <section class="section container" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-label">02 / SELECTED WORK</p>
+            <h2 id="projects-title">Ideas, made <em>tangible.</em>
+            </h2>
+          </div>
+          <p>A few things I’m building.<br>Each one, a new problem to explore.</p>
         </div>
-
-        <!-- Featured Skills -->
-
-        <div class="featured-skills">
-
-            <div class="featured-card" data-aos="zoom-in">
-                <i class="fa-brands fa-python"></i>
-                <h3>Python</h3>
-                <span>Primary Language</span>
+        <article class="featured-project project-card">
+          <div class="project-art neuro-art" role="img" aria-label="Concept illustration: handwriting and speech signals feed an explainable AI analysis pipeline">
+            <div class="art-topline"><span><span class="tiny-dot"></span> NEUROTRACK AI</span><span>CONCEPT / 01</span>
             </div>
-
-            <div class="featured-card" data-aos="zoom-in" data-aos-delay="100">
-                <i class="fa-solid fa-brain"></i>
-                <h3>Artificial Intelligence</h3>
-                <span>Core Domain</span>
+            <div class="signal-label">SMALL SIGNALS. DEEPER UNDERSTANDING.</div>
+            <div class="neuro-diagram"><span class="signal-node">Aa<small>Handwriting</small></span><span class="connector"></span><span class="brain-node"><svg class="icon" aria-hidden="true"><use href="#spark"/></svg><small>Explainable AI</small></span><span class="connector"></span><span class="signal-node waveform"><span aria-hidden="true">▂▆▃█▅▂▇</span><small>Speech</small></span>
             </div>
-
-            <div class="featured-card" data-aos="zoom-in" data-aos-delay="200">
-                <i class="fa-solid fa-laptop-code"></i>
-                <h3>Software Development</h3>
-                <span>Problem Solving</span>
+            <div class="signal-chart"><svg viewBox="0 0 500 75" aria-hidden="true"><path class="chart-grid" d="M0 20H500M0 45H500M0 70H500"/><path d="M0 49 25 49 35 35 45 58 55 15 66 65 80 42 100 45 130 44 140 24 150 55 160 38 180 46 210 44 225 45 235 12 245 64 260 33 280 43 305 42 320 22 330 53 345 37 360 43 395 43 410 27 420 56 435 35 450 43 500 43"/></svg><span>DIGITAL BIOMARKERS · LONGITUDINAL INSIGHTS</span>
             </div>
-
-            <div class="featured-card" data-aos="zoom-in" data-aos-delay="300">
-                <i class="fa-solid fa-lightbulb"></i>
-                <h3>Logical Thinking</h3>
-                <span>Continuous Learning</span>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span class="pill ongoing"><span class="status-dot"></span> In development</span><span>01 / HEALTHCARE AI</span>
             </div>
-
-        </div>
-
-        <!-- Programming Languages -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-code"></i> Programming Languages</h3>
-
-            <div class="skill-card">
-                <i class="devicon-python-plain colored"></i>
-                <p>Python</p>
+            <h3>NeuroTrack AI</h3>
+            <p class="project-subtitle">Making neurological signals understandable.</p>
+            <p>An explainable multimodal platform exploring handwriting and speech biomarkers for longitudinal neurological monitoring. Designed for objective measurement and transparent reporting, not diagnosis or treatment.</p>
+            <div class="tags"><span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>FastAPI</span><span>React</span>
             </div>
-
-            <div class="skill-card">
-                <i class="devicon-c-plain colored"></i>
-                <p>C</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-cplusplus-plain colored"></i>
-                <p>C++</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-java-plain colored"></i>
-                <p>Java</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-mysql-plain colored"></i>
-                <p>SQL</p>
-            </div>
-
-        </div>
-
-        </div>
-
-        <!-- Web Development -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-globe"></i> Web Development</h3>
-
-            <div class="skill-card">
-                <i class="devicon-html5-plain colored"></i>
-                <p>HTML5</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-css3-plain colored"></i>
-                <p>CSS3</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-javascript-plain colored"></i>
-                <p>JavaScript</p>
-            </div>
-
-        </div>
-
-        </div>
-
-        <!-- AI & Machine Learning -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
-
-            <div class="skill-card">
-                <i class="fas fa-brain"></i>
-                <p>Machine Learning</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="fas fa-network-wired"></i>
-                <p>Deep Learning</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="fas fa-eye"></i>
-                <p>Computer Vision</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-opencv-plain colored"></i>
-                <p>OpenCV</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-numpy-plain colored"></i>
-                <p>NumPy</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-pandas-plain colored"></i>
-                <p>Pandas</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-scikitlearn-plain colored"></i>
-                <p>Scikit-learn</p>
-            </div>
-
-        </div>
-
-        </div>
-
-        <!-- Databases & Tools -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-toolbox"></i> Databases & Tools</h3>
-
-            <div class="skill-card">
-                <i class="devicon-mysql-plain colored"></i>
-                <p>MySQL</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-git-plain colored"></i>
-                <p>Git</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-github-original"></i>
-                <p>GitHub</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-vscode-plain colored"></i>
-                <p>VS Code</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-googlecolab-plain colored"></i>
-                <p>Google Colab</p>
-            </div>
-
-            <div class="skill-card">
-                <i class="devicon-jupyter-plain colored"></i>
-                <p>Jupyter Notebook</p>
-            </div>
-
-        </div>
-
-        </div>
-
-        <!-- Core Computer Science -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-laptop-code"></i> Core Computer Science</h3>
-
-            <div class="skill-grid">
-
-                <div class="skill-card"><i class="fa-solid fa-code-branch"></i>
-                    <p>Data Structures & Algorithms</p>
+            <details class="project-details">
+              <summary>Explore the project <span aria-hidden="true">+</span>
+              </summary>
+              <div>
+                <p><strong>My role:</strong> Sole developer.</p>
+                <p>Handwriting and speech analysis, cross-visit comparison, and longitudinal tracking. Additional tools include Keras, Whisper, Librosa, SHAP, and Grad-CAM for audio processing and explainability.</p>
+              </div>
+            </details>
+          </div>
+        </article>
+        <div class="project-pair">
+          <article class="project-card">
+            <div class="project-art meal-art" role="img" aria-label="Concept illustration of a personalized meal and glucose-response research dashboard">
+              <div class="art-topline"><span>PERSONALIZED AI</span><span>CONCEPT / 02</span>
+              </div>
+              <div class="meal-illustration">
+                <div class="plate"><span>✳</span><small>Personalized<br>by design</small>
                 </div>
-
-                <div class="skill-card"><i class="fa-solid fa-cube"></i>
-                    <p>Object-Oriented Programming</p>
+                <div class="meal-data"><span>GLUCOSE RESPONSE</span><svg viewBox="0 0 220 85" aria-hidden="true"><path class="chart-grid" d="M0 20H220M0 50H220M0 80H220"/><path d="M0 65C25 65 30 20 60 25S100 75 130 51 170 24 220 35"/></svg>
+                  <div><span>Indian meals</span><span>Explainable ML</span>
+                  </div>
                 </div>
-
-                <div class="skill-card"><i class="fa-solid fa-database"></i>
-                    <p>DBMS</p>
-                </div>
-
-                <div class="skill-card"><i class="fa-solid fa-desktop"></i>
-                    <p>Operating Systems</p>
-                </div>
-
-                <div class="skill-card"><i class="fa-solid fa-cloud"></i>
-                    <p>Cloud Computing</p>
-                </div>
-
+              </div>
             </div>
-
-        </div>
-
-        <!-- Soft Skills -->
-
-        <div class="skill-category" data-aos="fade-up">
-
-            <h3><i class="fas fa-users"></i> Professional Skills</h3>
-
-            <div class="soft-skills">
-
-                <span>Problem Solving</span>
-
-                <span>Communication</span>
-
-                <span>Leadership</span>
-
-                <span>Teamwork</span>
-
-                <span>Adaptability</span>
-
-                <span>Continuous Learning</span>
-
-                <span>Critical Thinking</span>
-
-                <span>Time Management</span>
-
+            <div class="project-copy">
+              <div class="project-meta"><span class="pill ongoing"><span class="status-dot"></span> In development</span><span>02 / PERSONALIZED ML</span>
+              </div>
+              <h3>Personalized Meal & Insulin AI</h3>
+              <p>Individual capstone exploring Indian meal recommendations and glucose-response prediction using CGM, meal, and insulin data, with a hybrid rule-based and machine-learning approach.</p>
+              <div class="tags"><span>Python</span><span>XGBoost</span><span>SHAP</span><span>FastAPI</span>
+              </div>
+              <details class="project-details">
+                <summary>Explore the project <span aria-hidden="true">+</span>
+                </summary>
+                <div>
+                  <p><strong>My role:</strong> Sole developer & researcher.</p>
+                  <p>Personalized AI-Based Indian Meal & Insulin Decision-Support System for Type 1 Diabetes. Research focuses on n-of-1 personalization, PMSI scoring, and safety-first design. Built with Scikit-learn, React, and SQLite alongside the tools above.</p>
+                </div>
+              </details>
             </div>
-
+          </article>
+          <article class="project-card">
+            <div class="project-art architect-art" role="img" aria-label="Concept floor plan with living room, kitchen, bedroom and study">
+              <div class="art-topline"><span>AI REALESTATE ARCHITECT</span><span>CONCEPT / 03</span>
+              </div>
+              <div class="blueprint">
+                <div class="floor-plan"><span class="living">LIVING<span>↗</span></span><span>KITCHEN</span><span>BEDROOM</span><span>STUDY</span>
+                </div>
+                <div class="blueprint-side"><span>N ↑</span><span>SPACE.<br>INTELLIGENCE.<br>POSSIBILITY.</span><span>FLOOR PLAN CONCEPT</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-copy">
+              <div class="project-meta"><span class="pill ongoing"><span class="status-dot"></span> In development</span><span>03 / GENERATIVE AI</span>
+              </div>
+              <h3>AI RealEstate Architect</h3>
+              <p>An integrated architecture platform bringing floor plan generation, Vastu analysis, energy optimization, cost estimation, and automated reporting into one workflow.</p>
+              <div class="tags"><span>Python</span><span>Deep Learning</span><span>Generative AI</span>
+              </div>
+              <details class="project-details">
+                <summary>Explore the project <span aria-hidden="true">+</span>
+                </summary>
+                <div>
+                  <p><strong>My role:</strong> AI/ML lead in a team of three.</p>
+                  <p>Combines generative techniques with rule-based logic across five architecture modules, with PDF generation for project reports.</p>
+                </div>
+              </details>
+            </div>
+          </article>
         </div>
-
-    </section>
-
-    <!-- PROJECTS -->
-    <!--==================================================
-                    PROJECTS
-===================================================-->
-
-    <section id="projects">
-
-        <div class="section-title" data-aos="fade-up">
-
-            <h2>Projects</h2>
-
-            <p>Ideas I've turned into intelligent solutions</p>
-
-        </div>
-
-
-        <!--==================================================
-                    FEATURED PROJECTS
-    ===================================================-->
-
-        <div class="projects-container">
-
-
-            <!-- ================= NEUROTRACK AI ================= -->
-
-            <article class="project-card featured-project" data-aos="fade-up">
-
-                <!-- Custom Project Illustration -->
-
-                <div class="project-visual neurotrack-visual">
-
-                    <div class="visual-header">
-
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-
-                        <span class="visual-label">
-                            NEUROTRACK AI
-                        </span>
-
-                    </div>
-
-                    <div class="neuro-network">
-
-                        <div class="network-node">
-                            <i class="fa-solid fa-pen"></i>
-                            <span>Handwriting</span>
-                        </div>
-
-                        <div class="network-line"></div>
-
-                        <div class="network-node central-node">
-                            <i class="fa-solid fa-brain"></i>
-                            <span>AI</span>
-                        </div>
-
-                        <div class="network-line"></div>
-
-                        <div class="network-node">
-                            <i class="fa-solid fa-microphone"></i>
-                            <span>Speech</span>
-                        </div>
-
-                    </div>
-
-                    <div class="biomarker-panel">
-
-                        <span>
-                            <i class="fa-solid fa-chart-line"></i>
-                            Digital Biomarkers
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-shield-halved"></i>
-                            Explainable AI
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-clock-rotate-left"></i>
-                            Longitudinal Tracking
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Project Content -->
-
-                <div class="project-content">
-
-                    <div class="project-meta">
-
-                        <span class="project-status">
-                            <i class="fa-solid fa-circle"></i>
-                            Ongoing
-                        </span>
-
-                        <span class="project-type">
-                            Individual Project
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        NeuroTrack AI
-                    </h3>
-
-                    <h4>
-                        Explainable Multimodal Digital Biomarker Platform
-                    </h4>
-
-
-                    <p>
-                        An Explainable AI-powered platform designed for
-                        longitudinal neurological monitoring using digital
-                        biomarkers extracted from handwriting and speech.
-                        The system focuses on objective measurement,
-                        cross-visit comparison, and transparent reporting
-                        rather than diagnosis or treatment recommendation.
-                    </p>
-
-
-                    <div class="project-highlights">
-
-                        <span>
-                            <i class="fa-solid fa-pen-nib"></i>
-                            Handwriting Analysis
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-wave-square"></i>
-                            Speech Analysis
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-chart-line"></i>
-                            Longitudinal Monitoring
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-lightbulb"></i>
-                            Explainable AI
-                        </span>
-
-                    </div>
-
-
-                    <div class="tech-stack">
-
-                        <span>Python</span>
-                        <span>TensorFlow/Keras</span>
-                        <span>OpenCV</span>
-                        <span>Whisper</span>
-                        <span>Librosa</span>
-                        <span>SHAP</span>
-                        <span>Grad-CAM</span>
-                        <span>FastAPI</span>
-                        <span>React</span>
-
-                    </div>
-
-
-                    <div class="project-footer">
-
-                        <span class="role-label">
-                            <i class="fa-solid fa-user"></i>
-                            Sole Developer
-                        </span>
-
-                        <span class="project-progress">
-                            In Development
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- ================= MEAL & INSULIN SYSTEM ================= -->
-
-            <article class="project-card featured-project" data-aos="fade-up" data-aos-delay="100">
-
-                <!-- Custom Project Illustration -->
-
-                <div class="project-visual meal-visual">
-
-                    <div class="visual-header">
-
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-
-                        <span class="visual-label">
-                            PERSONALIZED AI
-                        </span>
-
-                    </div>
-
-
-                    <div class="meal-dashboard">
-
-                        <div class="meal-icon">
-
-                            <i class="fa-solid fa-utensils"></i>
-
-                        </div>
-
-
-                        <div class="glucose-chart">
-
-                            <div class="chart-line">
-
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-
-                            </div>
-
-                            <small>
-                                Personalized Glucose Response
-                            </small>
-
-                        </div>
-
-
-                        <div class="meal-score">
-
-                            <strong>92</strong>
-
-                            <span>
-                                Meal Suitability
-                            </span>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="meal-features">
-
-                        <span>
-                            <i class="fa-solid fa-heart-pulse"></i>
-                            CGM
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-bowl-food"></i>
-                            Indian Meals
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-brain"></i>
-                            ML Prediction
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-shield-halved"></i>
-                            Safety Rules
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Project Content -->
-
-                <div class="project-content">
-
-                    <div class="project-meta">
-
-                        <span class="project-status">
-                            <i class="fa-solid fa-circle"></i>
-                            Ongoing
-                        </span>
-
-                        <span class="project-type">
-                            Individual Capstone
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        Personalized AI-Based Indian Meal &
-                        Insulin Decision-Support System
-                    </h3>
-
-
-                    <h4>
-                        Type 1 Diabetes • n-of-1 Personalized AI
-                    </h4>
-
-
-                    <p>
-                        A personalized, explainable, safety-first decision-support
-                        system that uses longitudinal CGM, meal, and insulin data
-                        to support personalized Indian meal recommendations and
-                        glucose-response prediction through a hybrid rule-based
-                        and machine-learning approach.
-                    </p>
-
-
-                    <div class="project-highlights">
-
-                        <span>
-                            <i class="fa-solid fa-bowl-food"></i>
-                            Indian Meal Recommendation
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-chart-line"></i>
-                            Glucose Prediction
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-ranking-star"></i>
-                            PMSI Scoring
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-shield-halved"></i>
-                            Safety-First Design
-                        </span>
-
-                    </div>
-
-
-                    <div class="tech-stack">
-
-                        <span>Python</span>
-                        <span>XGBoost</span>
-                        <span>Scikit-learn</span>
-                        <span>SHAP</span>
-                        <span>FastAPI</span>
-                        <span>React</span>
-                        <span>SQLite</span>
-
-                    </div>
-
-
-                    <div class="project-footer">
-
-                        <span class="role-label">
-                            <i class="fa-solid fa-user"></i>
-                            Sole Developer & Researcher
-                        </span>
-
-                        <span class="project-progress">
-                            In Development
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-
-            <!-- ================= REAL ESTATE ARCHITECT ================= -->
-
-            <article class="project-card featured-project" data-aos="fade-up" data-aos-delay="200">
-
-                <!-- Custom Project Illustration -->
-
-                <div class="project-visual realestate-visual">
-
-                    <div class="visual-header">
-
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-                        <span class="visual-dot"></span>
-
-                        <span class="visual-label">
-                            AI REAL ESTATE
-                        </span>
-
-                    </div>
-
-
-                    <div class="architect-layout">
-
-                        <div class="floor-plan">
-
-                            <div class="room room-one">
-                                Living
-                            </div>
-
-                            <div class="room room-two">
-                                Kitchen
-                            </div>
-
-                            <div class="room room-three">
-                                Bedroom
-                            </div>
-
-                            <div class="room room-four">
-                                Study
-                            </div>
-
-                        </div>
-
-
-                        <div class="architect-modules">
-
-                            <div>
-                                <i class="fa-solid fa-compass"></i>
-                                <span>Vastu</span>
-                            </div>
-
-                            <div>
-                                <i class="fa-solid fa-bolt"></i>
-                                <span>Energy</span>
-                            </div>
-
-                            <div>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>
-                                <span>Cost</span>
-                            </div>
-
-                            <div>
-                                <i class="fa-solid fa-file-lines"></i>
-                                <span>Report</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Project Content -->
-
-                <div class="project-content">
-
-                    <div class="project-meta">
-
-                        <span class="project-status">
-                            <i class="fa-solid fa-circle"></i>
-                            Ongoing
-                        </span>
-
-                        <span class="project-type">
-                            Team of 3
-                        </span>
-
-                    </div>
-
-
-                    <h3>
-                        AI RealEstate Architect Platform
-                    </h3>
-
-
-                    <h4>
-                        AI/ML Lead • Integrated Architecture Platform
-                    </h4>
-
-
-                    <p>
-                        An AI-powered platform combining five modules into
-                        one architecture: floor plan generation, Vastu
-                        compliance analysis, energy optimization, cost
-                        estimation, and automated report generation.
-                    </p>
-
-
-                    <div class="project-highlights">
-
-                        <span>
-                            <i class="fa-solid fa-compass"></i>
-                            Vastu Analysis
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-bolt"></i>
-                            Energy Optimization
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-indian-rupee-sign"></i>
-                            Cost Estimation
-                        </span>
-
-                        <span>
-                            <i class="fa-solid fa-file-pdf"></i>
-                            Report Generation
-                        </span>
-
-                    </div>
-
-
-                    <div class="tech-stack">
-
-                        <span>Python</span>
-                        <span>Deep Learning</span>
-                        <span>Generative Techniques</span>
-                        <span>Rule-Based Logic</span>
-                        <span>PDF Generation</span>
-
-                    </div>
-
-
-                    <div class="project-footer">
-
-                        <span class="role-label">
-                            <i class="fa-solid fa-users"></i>
-                            AI/ML Lead
-                        </span>
-
-                        <span class="project-progress">
-                            In Development
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-        </div>
-
-
-        <!--==================================================
-                    OTHER PROJECTS
-    ===================================================-->
-
-        <div class="other-projects-title" data-aos="fade-up">
-
-            <h3>
-                Other Projects
+        <div class="more-work-heading">
+          <div>
+            <h3>The learning lab<span>.</span>
             </h3>
-
-            <p>
-                Academic and independent projects across AI/ML,
-                computer vision, NLP and software development.
-            </p>
-
+            <p>Smaller experiments. Meaningful lessons.</p>
+          </div>
+          <div class="project-filters" role="group" aria-label="Filter learning projects" hidden><button type="button" class="active" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="vision" aria-pressed="false">Vision</button><button type="button" data-filter="language" aria-pressed="false">Language</button><button type="button" data-filter="ml" aria-pressed="false">ML</button>
+          </div>
         </div>
-
-
-        <div class="other-projects-grid">
-
-
-            <!-- Fruit Ripeness -->
-
-            <article class="mini-project-card" data-aos="fade-up">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-apple-whole"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        Computer Vision
-                    </span>
-
-                    <h4>
-                        Fruit Ripeness Detector
-                    </h4>
-
-                    <p>
-                        Image-processing pipeline that classifies
-                        fruit ripeness using color and texture features.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>Python</span>
-                        <span>OpenCV</span>
-                        <span>Streamlit</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Mental Health -->
-
-            <article class="mini-project-card" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-chart-line"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        Machine Learning
-                    </span>
-
-                    <h4>
-                        Mental Health Prediction
-                    </h4>
-
-                    <p>
-                        Machine-learning project involving preprocessing,
-                        feature engineering, model training and deployment.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>Python</span>
-                        <span>Scikit-learn</span>
-                        <span>Streamlit</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Spam Scam -->
-
-            <article class="mini-project-card" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-shield-halved"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        Multimodal AI
-                    </span>
-
-                    <h4>
-                        Spam & Scam Detection
-                    </h4>
-
-                    <p>
-                        Multimodal classifier combining text, voice and
-                        image inputs into one spam and scam detection pipeline.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>Python</span>
-                        <span>TF-IDF</span>
-                        <span>OCR</span>
-                        <span>Speech-to-Text</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Image Captioning -->
-
-            <article class="mini-project-card" data-aos="fade-up" data-aos-delay="300">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-image"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        Deep Learning
-                    </span>
-
-                    <h4>
-                        Image Captioning
-                    </h4>
-
-                    <p>
-                        CNN-LSTM encoder-decoder model designed to
-                        generate captions for input images.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>TensorFlow</span>
-                        <span>CNN</span>
-                        <span>LSTM</span>
-                        <span>Flask</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Machine Translation -->
-
-            <article class="mini-project-card" data-aos="fade-up" data-aos-delay="400">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-language"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        NLP
-                    </span>
-
-                    <h4>
-                        Machine Translation
-                    </h4>
-
-                    <p>
-                        Sequence-to-sequence LSTM neural translation
-                        model deployed through a Flask application.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>TensorFlow</span>
-                        <span>Seq2Seq</span>
-                        <span>LSTM</span>
-                        <span>Flask</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <!-- Cat Dog -->
-
-            <article class="mini-project-card" data-aos="fade-up" data-aos-delay="500">
-
-                <div class="mini-project-icon">
-
-                    <i class="fa-solid fa-paw"></i>
-
-                </div>
-
-                <div>
-
-                    <span class="mini-project-category">
-                        Computer Vision
-                    </span>
-
-                    <h4>
-                        Cat vs. Dog Image Classifier
-                    </h4>
-
-                    <p>
-                        Binary image classifier using MobileNetV2
-                        transfer learning with server-side rendering.
-                    </p>
-
-                    <div class="mini-tech">
-                        <span>Flask</span>
-                        <span>MobileNetV2</span>
-                        <span>Transfer Learning</span>
-                        <span>Jinja2</span>
-                    </div>
-
-                </div>
-
-            </article>
-
-
+        <p class="sr-only" id="filter-status" aria-live="polite"></p>
+        <div class="lab-grid">
+          <article class="lab-project" data-category="vision"><span class="lab-number">01</span>
+            <div><span class="eyebrow">COMPUTER VISION</span>
+              <h4>Fruit Ripeness Detector</h4>
+              <p>Classifying ripeness through color and texture features.</p>
+              <span class="lab-stack">Python / OpenCV / Streamlit</span>
+            </div>
+          </article>
+          <article class="lab-project" data-category="ml"><span class="lab-number">02</span>
+            <div><span class="eyebrow">MACHINE LEARNING</span>
+              <h4>Mental Health Prediction</h4>
+              <p>From preprocessing and feature engineering to model deployment.</p>
+              <span class="lab-stack">Python / Scikit-learn / Streamlit</span>
+            </div>
+          </article>
+          <article class="lab-project" data-category="language ml"><span class="lab-number">03</span>
+            <div><span class="eyebrow">MULTIMODAL AI</span>
+              <h4>Spam & Scam Detection</h4>
+              <p>Bringing text, voice, and image inputs into a single detection pipeline.</p>
+              <span class="lab-stack">Python / TF-IDF / OCR / Speech-to-Text</span>
+            </div>
+          </article>
+          <article class="lab-project" data-category="vision language"><span class="lab-number">04</span>
+            <div><span class="eyebrow">DEEP LEARNING</span>
+              <h4>Image Captioning</h4>
+              <p>A CNN-LSTM encoder-decoder that turns images into descriptions.</p>
+              <span class="lab-stack">TensorFlow / CNN / LSTM / Flask</span>
+            </div>
+          </article>
+          <article class="lab-project" data-category="language"><span class="lab-number">05</span>
+            <div><span class="eyebrow">NATURAL LANGUAGE PROCESSING</span>
+              <h4>Machine Translation</h4>
+              <p>Sequence-to-sequence neural translation in a Flask application.</p>
+              <span class="lab-stack">TensorFlow / Seq2Seq / LSTM / Flask</span>
+            </div>
+          </article>
+          <article class="lab-project" data-category="vision"><span class="lab-number">06</span>
+            <div><span class="eyebrow">COMPUTER VISION</span>
+              <h4>Cat vs. Dog Classifier</h4>
+              <p>Exploring transfer learning for binary image classification.</p>
+              <span class="lab-stack">MobileNetV2 / Flask / Jinja2</span>
+            </div>
+          </article>
         </div>
-
-    </section>
-
-    <!-- Journey -->
-    <!-- =========================
-     JOURNEY SECTION
-========================== -->
-
-    <section id="journey" class="journey-section">
-
-        <div class="section-title" data-aos="fade-up">
-
-            <h2>My Journey</h2>
-
-            <p>My academic growth, learning experiences and milestones</p>
-
+        <a class="text-link github-link" href="https://github.com/srushtighatge25-commits" target="_blank" rel="noopener noreferrer">Find me on GitHub <svg class="icon" aria-hidden="true"><use href="#diagonal"/></svg></a>
+      </section>
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section-label">03 / MY TOOLKIT</p>
+              <h2 id="skills-title">The tools behind<br>the <em>ideas.</em>
+              </h2>
+            </div>
+            <p>A growing toolkit, grounded in fundamentals<br>and shaped by hands-on projects.</p>
+          </div>
+          <div class="skill-columns">
+            <div class="skill-column"><svg class="icon skill-icon" aria-hidden="true"><use href="#code"/></svg>
+              <h3>Software & web</h3>
+              <p>From a solid foundation to a usable interface.</p>
+              <ul class="skill-list">
+                <li>Python <span>Primary language</span>
+                </li>
+                <li>C · C++ · Java</li>
+                <li>HTML5 · CSS3 · JavaScript</li>
+                <li>SQL · MySQL</li>
+              </ul>
+            </div>
+            <div class="skill-column"><svg class="icon skill-icon" aria-hidden="true"><use href="#spark"/></svg>
+              <h3>AI & machine learning</h3>
+              <p>Finding patterns. Building intelligence.</p>
+              <ul class="skill-list">
+                <li>Machine Learning · Deep Learning</li>
+                <li>Computer Vision · OpenCV</li>
+                <li>NumPy · Pandas</li>
+                <li>Scikit-learn</li>
+              </ul>
+            </div>
+            <div class="skill-column"><svg class="icon skill-icon" aria-hidden="true"><use href="#layers"/></svg>
+              <h3>Foundations & workflow</h3>
+              <p>The thinking and tools that hold it together.</p>
+              <ul class="skill-list">
+                <li>Data Structures & Algorithms</li>
+                <li>OOP · DBMS · Operating Systems</li>
+                <li>Git · GitHub · VS Code</li>
+                <li>Jupyter · Google Colab · Cloud Computing</li>
+              </ul>
+            </div>
+          </div>
+          <div class="human-skills"><span>BEYOND THE CODE</span>
+            <p>Problem solving · Communication · Leadership · Teamwork · Adaptability · Continuous learning · Critical thinking · Time management</p>
+          </div>
         </div>
-
-
-        <div class="journey-container">
-
-
-            <!-- =========================
-             2020
-        ========================== -->
-
-            <div class="journey-item left" data-aos="fade-right">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-school"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2020</span>
-
-                    <h3>Secondary School Education</h3>
-
-                    <h4>Holyden English Medium School, Kagal</h4>
-
-                    <p>
-                        Completed 10th standard under the Maharashtra State Board
-                        with a strong academic performance.
-                    </p>
-
-                    <div class="journey-highlight">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span>93% — Maharashtra Board</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2023 — 12TH
-        ========================== -->
-
-            <div class="journey-item right" data-aos="fade-left">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2023</span>
-
-                    <h3>Higher Secondary Education</h3>
-
-                    <h4>Hanmantrao Chate Jr. College of Technology, Kolhapur</h4>
-
-                    <p>
-                        Completed 12th standard under the Maharashtra State Board,
-                        building the foundation for my engineering journey.
-                    </p>
-
-                    <div class="journey-highlight">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span>73% — Maharashtra Board</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2023 — BTECH
-        ========================== -->
-
-            <div class="journey-item left" data-aos="fade-right">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-laptop-code"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2023 – 2027</span>
-
-                    <h3>B.Tech in Computer Science & Engineering</h3>
-
-                    <h4>
-                        Artificial Intelligence & Machine Learning
-                    </h4>
-
-                    <p>
-                        Pursuing B.Tech at D. Y. Patil College of Engineering &
-                        Technology, Kolhapur, with a focus on software development,
-                        artificial intelligence and machine learning.
-                    </p>
-
-                    <div class="journey-highlight">
-
-                        <i class="fa-solid fa-star"></i>
-
-                        <span>
-                            80.16% Aggregate till Semester VI
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2023 — GENAI WORKSHOP
-        ========================== -->
-
-            <div class="journey-item right" data-aos="fade-left">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-brain"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2023</span>
-
-                    <h3>Generative AI Workshop</h3>
-
-                    <h4>
-                        AI for Students: Build Your Own Generative AI Model
-                    </h4>
-
-                    <p>
-                        Participated in a workshop focused on understanding
-                        Generative AI concepts and building AI applications.
-                    </p>
-
-                    <div class="journey-tag">
-                        <i class="fa-solid fa-certificate"></i>
-                        Certificate of Participation
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2024 — CERTIFICATIONS
-        ========================== -->
-
-            <div class="journey-item left" data-aos="fade-right">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-certificate"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2024</span>
-
-                    <h3>Technical Certifications</h3>
-
-                    <p>
-                        Strengthened my programming foundations through
-                        structured online learning and technical courses.
-                    </p>
-
-                    <div class="journey-cert-list">
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Java Programming — Great Learning
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Python Fundamentals for Beginners — Great Learning
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            The Ultimate Job Ready Data Science Course — CodeWithHarry
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Complete 2026 Python Bootcamp — CodeWithHarry
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2024 — POSTER PRESENTATION
-        ========================== -->
-
-            <div class="journey-item right" data-aos="fade-left">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-microchip"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2024</span>
-
-                    <h3>AI & ML Poster Presentation</h3>
-
-                    <h4>
-                        Poster Presentation Competition 2K24
-                    </h4>
-
-                    <p>
-                        Participated in a poster presentation competition
-                        focused on exploring and presenting advancements in
-                        Artificial Intelligence and Machine Learning.
-                    </p>
-
-                    <div class="journey-tag">
-
-                        <i class="fa-solid fa-award"></i>
-
-                        Certificate of Participation
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2025 — INTERNSHIP
-        ========================== -->
-
-            <div class="journey-item left" data-aos="fade-right">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-briefcase"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2025</span>
-
-                    <h3>Web Development Internship</h3>
-
-                    <h4>VaultofCodes.in</h4>
-
-                    <p>
-                        Successfully completed a one-month internship in
-                        Web Development, gaining practical experience in
-                        building and developing web applications.
-                    </p>
-
-                    <div class="journey-highlight">
-
-                        <i class="fa-solid fa-calendar-check"></i>
-
-                        <span>
-                            1 Month Internship · Started 05/11/2025
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2026 — EXPERT TALKS
-        ========================== -->
-
-            <div class="journey-item right" data-aos="fade-left">
-
-                <div class="journey-dot">
-                    <i class="fa-solid fa-comments"></i>
-                </div>
-
-                <div class="journey-card">
-
-                    <span class="journey-year">2026</span>
-
-                    <h3>AI & Technology Expert Talks</h3>
-
-                    <p>
-                        Expanded my understanding of emerging technologies
-                        through expert-led technical sessions.
-                    </p>
-
-                    <div class="journey-cert-list">
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Introduction to LLM
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Introduction to Prompt Engineering
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Introduction to GenAI Frameworks
-                        </div>
-
-                        <div>
-                            <i class="fa-solid fa-check"></i>
-                            Introduction to Distributed Data Processing with PySpark
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- =========================
-             2027 — GRADUATION
-        ========================== -->
-
-            <div class="journey-item left" data-aos="fade-right">
-
-                <div class="journey-dot final-dot">
-
-                    <i class="fa-solid fa-flag-checkered"></i>
-
-                </div>
-
-                <div class="journey-card final-journey-card">
-
-                    <span class="journey-year">2027</span>
-
-                    <h3>B.Tech Graduation</h3>
-
-                    <h4>D. Y. Patil College of Engineering & Technology</h4>
-
-                    <p>
-                        Expected completion of my B.Tech in Computer Science &
-                        Engineering with specialization in Artificial
-                        Intelligence & Machine Learning.
-                    </p>
-
-                    <div class="journey-highlight">
-
-                        <i class="fa-solid fa-rocket"></i>
-
-                        <span>
-                            Beginning the next chapter of my professional journey
-                        </span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
+      </section>
+      <section class="section container journey-layout" id="journey" aria-labelledby="journey-title">
+        <div class="journey-intro">
+          <p class="eyebrow section-label">04 / THE JOURNEY SO FAR</p>
+          <h2 id="journey-title">Learning.<br> Building.<br> <em>Becoming.</em>
+          </h2>
+          <p>Every chapter adds something new.<br>Here are a few that shaped me.</p>
+          <a class="text-link" href="assets/resume/Resume.pdf" download>The full story <svg class="icon" aria-hidden="true"><use href="#download"/></svg></a>
         </div>
-
-    </section>
-
-    <!-- CONTACT -->
-    <!-- =========================
-     CONTACT SECTION
-========================== -->
-
-    <section id="contact" class="contact-section">
-
-        <div class="section-title" data-aos="fade-up">
-
-            <h2>Let's Connect</h2>
-
-            <p>Have a project, opportunity, or idea? I'd love to hear from you.</p>
-
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2023 — 2027 <span class="pill">Current</span>
+            </div>
+            <h3>B.Tech, Computer Science & Engineering</h3>
+            <h4>Artificial Intelligence & Machine Learning</h4>
+            <p>D. Y. Patil College of Engineering & Technology, Kolhapur.</p>
+            <span class="timeline-note">80.16% aggregate through Semester VI · Expected graduation 2027</span>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2025</div>
+            <h3>Web Development Intern</h3>
+            <h4>VaultofCodes.in</h4>
+            <p>Completed a one-month internship building web applications and strengthening practical development skills.</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2023 — 2026</div>
+            <h3>Learning beyond the classroom</h3>
+            <p>Workshops, certifications, and conversations that keep my curiosity moving.</p>
+            <details class="journey-details">
+              <summary>Courses & milestones <span aria-hidden="true">+</span>
+              </summary>
+              <ul>
+                <li><strong>2026 expert talks:</strong> LLMs, prompt engineering, GenAI frameworks, and distributed data processing with PySpark.</li>
+                <li><strong>2024:</strong> AI & ML Poster Presentation Competition — certificate of participation.</li>
+                <li><strong>2023:</strong> “AI for Students: Build Your Own Generative AI Model” workshop.</li>
+                <li><strong>Great Learning:</strong> Java Programming; Python Fundamentals for Beginners.</li>
+                <li><strong>CodeWithHarry:</strong> The Ultimate Job Ready Data Science Course; Complete 2026 Python Bootcamp.</li>
+              </ul>
+            </details>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2020 — 2023</div>
+            <h3>The foundations</h3>
+            <p>Higher secondary at Hanmantrao Chate Jr. College of Technology, Kolhapur — <strong>73%</strong> (2023).</p>
+            <p>Secondary school at Holyden English Medium School, Kagal — <strong>93%</strong> (2020). Maharashtra State Board.</p>
+          </article>
         </div>
-
-
-        <div class="contact-container">
-
-
-            <!-- =========================
-             CONTACT INFORMATION
-        ========================== -->
-
-            <div class="contact-info" data-aos="fade-right">
-
-                <h3>Let's Talk</h3>
-
-                <p class="contact-intro">
-
-                    I'm always open to meaningful conversations,
-                    collaborations, project opportunities, and
-                    new ideas. Feel free to reach out.
-
-                </p>
-
-
-                <!-- EMAIL -->
-
-                <a href="mailto:srushtighatge25@gmail.com" class="contact-item">
-
-                    <div class="contact-icon">
-
-                        <i class="fa-solid fa-envelope"></i>
-
-                    </div>
-
-                    <div>
-
-                        <h4>Email</h4>
-
-                        <p>srushtighatge25@gmail.com</p>
-
-                    </div>
-
-                </a>
-
-
-                <!-- PHONE -->
-
-                <a href="tel:+917666757418" class="contact-item">
-
-                    <div class="contact-icon">
-
-                        <i class="fa-solid fa-phone"></i>
-
-                    </div>
-
-                    <div>
-
-                        <h4>Phone</h4>
-
-                        <p>+91 7666757418</p>
-
-                    </div>
-
-                </a>
-
-
-                <!-- LOCATION -->
-
-                <div class="contact-item">
-
-                    <div class="contact-icon">
-
-                        <i class="fa-solid fa-location-dot"></i>
-
-                    </div>
-
-                    <div>
-
-                        <h4>Location</h4>
-
-                        <p>Kolhapur, Maharashtra</p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- SOCIAL LINKS -->
-
-                <div class="contact-socials">
-
-                    <h4>Connect with me</h4>
-
-                    <div class="contact-social-links">
-
-                        <a href="https://github.com/srushtighatge25-commits" target="_blank" rel="noopener noreferrer"
-                            aria-label="GitHub">
-
-                            <i class="fa-brands fa-github"></i>
-
-                        </a>
-
-
-                        <a href="https://www.linkedin.com/in/srushti-ghatge-50325b334/" target="_blank"
-                            rel="noopener noreferrer" aria-label="LinkedIn">
-
-                            <i class="fa-brands fa-linkedin-in"></i>
-
-                        </a>
-
-
-                        <a href="mailto:srushtighatge25@gmail.com" aria-label="Email">
-
-                            <i class="fa-solid fa-envelope"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
+      </section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow section-label">05 / WHAT’S NEXT?</p>
+            <h2 id="contact-title">Good things start<br>with a <em>conversation.</em>
+            </h2>
+            <p>Have an interesting problem, a collaboration in mind, or an opportunity to share? I’d love to hear from you.</p>
+            <a class="contact-email" href="mailto:srushtighatge25@gmail.com">srushtighatge25@gmail.com <svg class="icon" aria-hidden="true"><use href="#diagonal"/></svg></a>
+            <div class="contact-meta"><span><svg class="icon" aria-hidden="true"><use href="#pin"/></svg> Kolhapur, Maharashtra</span><a href="tel:+917666757418">+91 7666757418</a>
             </div>
-
-
-            <!-- =========================
-             CONTACT FORM
-        ========================== -->
-
-            <div class="contact-form-container" data-aos="fade-left">
-
-                <h3>Send Me a Message</h3>
-
-                <p>
-                    Fill out the form below and I'll get back to you
-                    as soon as possible.
-                </p>
-
-
-                <form id="contact-form" action="https://formspree.io/f/xzeppeya" method="POST">
-
-
-                    <!-- NAME -->
-
-                    <div class="form-group">
-
-                        <label for="name">
-                            Your Name
-                        </label>
-
-                        <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name"
-                            required>
-
-                    </div>
-
-
-                    <!-- EMAIL -->
-
-                    <div class="form-group">
-
-                        <label for="email">
-                            Your Email
-                        </label>
-
-                        <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email"
-                            required>
-
-                    </div>
-
-
-                    <!-- SUBJECT -->
-
-                    <div class="form-group">
-
-                        <label for="subject">
-                            Subject
-                        </label>
-
-                        <input type="text" id="subject" name="subject" placeholder="What would you like to discuss?"
-                            required>
-
-                    </div>
-
-
-                    <!-- MESSAGE -->
-
-                    <div class="form-group">
-
-                        <label for="message">
-                            Message
-                        </label>
-
-                        <textarea id="message" name="message" rows="6" placeholder="Write your message here..."
-                            required></textarea>
-
-                    </div>
-
-
-                    <!-- SUBMIT -->
-
-                    <button type="submit" class="contact-submit">
-
-                        <span>Send Message</span>
-
-                        <i class="fa-solid fa-paper-plane"></i>
-
-                    </button>
-
-
-                </form>
-                <p id="form-status" class="form-status"></p>
-
+            <div class="contact-socials"><a href="https://github.com/srushtighatge25-commits" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/srushti-ghatge-50325b334/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
             </div>
-
+          </div>
+          <form id="contact-form" class="contact-form" action="https://formspree.io/f/xzeppeya" method="POST">
+            <h3>Say hello<span>.</span>
+            </h3>
+            <div class="form-row">
+              <div class="form-field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" placeholder="Alex Taylor" maxlength="120" required>
+              </div>
+              <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="alex@example.com" maxlength="254" required>
+              </div>
+            </div>
+            <div class="form-field"><label for="subject">What’s on your mind?</label><input id="subject" name="subject" placeholder="An opportunity, an idea, a hello…" maxlength="200" required>
+            </div>
+            <div class="form-field"><label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about it…" maxlength="5000" required></textarea>
+            </div>
+            <button class="button primary contact-submit" type="submit"><span>Send message</span><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
-
-    </section>
-
-    <!-- FOOTER -->
-
-    <!-- =========================
-     FOOTER
-========================== -->
-
-    <footer class="footer">
-
-        <div class="footer-container">
-
-            <!-- Brand -->
-
-            <div class="footer-brand">
-
-                <h3>Srushti Ghatge</h3>
-
-                <p>
-                    B.Tech CSE (AI & ML) Student
-                    <br>
-                    Building ideas into intelligent solutions.
-                </p>
-
-            </div>
-
-
-            <!-- Quick Links -->
-
-            <div class="footer-links">
-
-                <h4>Quick Links</h4>
-
-                <a href="#home">Home</a>
-
-                <a href="#about">About</a>
-
-                <a href="#skills">Skills</a>
-
-                <a href="#projects">Projects</a>
-
-                <a href="#journey">Journey</a>
-
-                <a href="#contact">Contact</a>
-
-            </div>
-
-
-            <!-- Connect -->
-
-            <div class="footer-connect">
-
-                <h4>Connect With Me</h4>
-
-                <div class="footer-socials">
-
-                    <a href="https://github.com/srushtighatge25-commits" target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/srushti-ghatge-50325b334/" target="_blank"
-                        rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-
-                    <a href="mailto:srushtighatge25@gmail.com" aria-label="Email">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <!-- Bottom Footer -->
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 Srushti Ghatge. All Rights Reserved.
-            </p>
-
-            <a href="#home" class="back-to-top">
-
-                <i class="fa-solid fa-arrow-up"></i>
-
-            </a>
-
-        </div>
-
+      </section>
+    </main>
+    <footer class="site-footer container"><a class="brand" href="#home" aria-label="Back to home">sg<span>.</span></a>
+      <p>© <span id="year">2026</span> Srushti Ghatge. Made with intention.</p>
+      <a class="text-link" href="#home">Back to top <span aria-hidden="true">↑</span></a>
     </footer>
-
-    <!-- AOS -->
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <script>
-
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-
-    </script>
-
-    <script src="script.js"></script>
-
-</body>
-
-<script>
-
-    const contactForm = document.getElementById("contact-form");
-    const formStatus = document.getElementById("form-status");
-
-    contactForm.addEventListener("submit", async function (event) {
-
-        event.preventDefault();
-
-        const submitButton = contactForm.querySelector(".contact-submit");
-        const buttonText = submitButton.querySelector("span");
-
-        buttonText.textContent = "Sending...";
-
-        submitButton.disabled = true;
-
-        const formData = new FormData(contactForm);
-
-        try {
-
-            const response = await fetch(contactForm.action, {
-
-                method: "POST",
-
-                body: formData,
-
-                headers: {
-
-                    "Accept": "application/json"
-
-                }
-
-            });
-
-            if (response.ok) {
-
-                formStatus.textContent =
-                    "Thank you! Your message has been sent successfully.";
-
-                contactForm.reset();
-
-            } else {
-
-                formStatus.textContent =
-                    "Something went wrong. Please try again.";
-
-            }
-
-        } catch (error) {
-
-            formStatus.textContent =
-                "Unable to send the message. Please try again later.";
-
-        }
-
-        buttonText.textContent = "Send Message";
-
-        submitButton.disabled = false;
-
-    });
-
-</script>
-
+  </body>
 </html>
